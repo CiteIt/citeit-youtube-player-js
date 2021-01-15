@@ -46,15 +46,14 @@ function updateTimerDisplay(){
     $('#current-time').text(formatTime( player.getCurrentTime() ));
     $('#duration').text(formatTime( player.getDuration() ));
 	
-	//alert(  formatTime( player.getDuration()) );
-	//console.log( formatTime( player.getDuration()) );
+	
+	// ------- Start: CiteIt addition ----------
 	console.log( ( player.getCurrentTime()) );
-	
-	
 	
 	if ((player.getCurrentTime() > 10) && (player.getCurrentTime() < 20)) {
 		console.log("Time is between 10 and 20");
 	}
+	// ------- End: CiteIt addition -----------
 	
 }
 
