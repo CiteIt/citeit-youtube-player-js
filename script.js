@@ -18,7 +18,7 @@ function onYouTubeIframeAPIReady() {
 
 function initialize(){
 
-	alert("INitialize");
+	alert("Initializing: Press Play");
 	console.log("Initialize");
 
     // Update the controls on load
